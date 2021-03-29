@@ -125,7 +125,7 @@ document.querySelector('input').addEventListener('change', function() {
     document.querySelector('.guessesLeft').querySelector('span').innerHTML = guessesLeft;
   }
 });
-        function fadecolor(color) {
+        function fadeColor(color) {
             document.body.style.background = color;
             setTimeout(function() {
                 document.body.style.background = null;
