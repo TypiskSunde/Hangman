@@ -3,6 +3,7 @@ show();
 function show(){
     document.getElementById("info").innerHTML = `
     <div class="info">Try to guess the hidden word below before it's too late! You can guess either one letter at a time or the whole word, but if you get the word wrong you lose 2 guesses!</div>
+    <h2>"WARNING: This game may potentially trigger seizures for people with photosensitive epilepsy. Viewer discretion is advised."</h2>
     <input type="text" placeholder="Guess">
     <button style="display:none;">Play Again</button>
     <div class="word"></div>
